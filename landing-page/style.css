@@ -1,0 +1,115 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    
+}
+
+.nav-main .nav-item {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-main {
+    float: right;
+    color: #111010;
+    display: flex;
+    gap: 20px;
+}
+
+section#home-screen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.registration {
+    display: flex;
+    width: 328px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    float: right;
+}
+
+.registration .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #000000;
+}
+
+.submit-appointment {
+    color: #FFFFFF;
+    margin-top: 40px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background: #FFA62B;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    background-image: url('background-photo.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    width: 100%;
+    height: 880px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.action-btn {
+    background-color: #FFA62B;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    padding: 12px 20px;
+    
+}
+
+.learne-more-btn {
+    background-image: url('background-photo.png');
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 12px 20px;
+    border: solid 2px #FFFFFF;
+}
+
+.text-appointment {
+    color: #000000;
+}
+
+.action-btn:hover {
+    color: #d2953f;
+}
+
+.learne-more-btn:hover {
+    color: rgb(6, 6, 6);
+}
+
+.action-btn:active {
+    color: #402705;
+}
+.learne-more-btn:active {
+color: #a69b9b;
+}
+.action-btn:focus {
+    color: #1d57ea;
+ }
+
+ .learne-more-btn:focus {
+    color: #11b84c;
+ }
